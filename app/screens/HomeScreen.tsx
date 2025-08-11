@@ -26,7 +26,7 @@ export default function HomeScreen({ navigation }: Props) {
     const [expendedItemId, setExpendedItemId] = useState<string>("");
     const [expended, setExpended] = useState<boolean>(false);
     const {t} = useTranslation();
-
+    console.log(t)
     return (
         <ScreenWrapper>
             <View className={`flex-1 ${bgColor}`}>
