@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@theme {
+    --color-primary: #273240;
+    --font-primary: "Quicksand", serif;
+    --color-background: #f2f6fe;
+}
